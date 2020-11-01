@@ -31,7 +31,7 @@ How to setup Linux Native VS Code on WSL2 Ubuntu
 snap run code
 # and type y <Enter> to pass the prompt
 ```
-> If you run `code` command with out `snap run`, it'll be launch Windows Native VS Code.
+> If you run `code` command with out `snap run`, it'll be launch The Windows Native VS Code.
 
 ## Using Settings Sync (Built in VS Code)
 
