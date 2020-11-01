@@ -1,7 +1,7 @@
 # wsl2-vscode
-How to run VS Code on WSL2 Ubuntu
+How to setup Linux Native VS Code on WSL2 Ubuntu
 
-## Intall VS Code
+## Install VS Code with Snap
 
 > ref : https://code.visualstudio.com/docs/setup/linux
 
@@ -25,16 +25,19 @@ How to run VS Code on WSL2 Ubuntu
     sudo snap install --classic code # or code-insiders
     ```
 
-4. Run VS Code
-    ```sh
-    snap run code
-    ```
+## Run VS Code
 
-## Using Settings Sync
+```sh
+snap run code
+# and type y <Enter> to pass the prompt
+```
+> If you run `code` command with out `snap run`, it'll be launch Windows Native VS Code.
+
+## Using Settings Sync (Built in VS Code)
 
 > ref : https://code.visualstudio.com/docs/editor/settings-sync
 
-1. [Install GNOME Keyring for VS Code Sync](https://wiki.archlinux.org/index.php/GNOME/Keyring#Installation)
+1. [Install GNOME Keyring for Settings Sync](https://wiki.archlinux.org/index.php/GNOME/Keyring#Installation)
     - Configurations
         - Configure `~/.bashrc`
             ```sh
@@ -45,7 +48,7 @@ How to run VS Code on WSL2 Ubuntu
     - Optional
         - If you want to use GUI-Tool, install seahorse too
 
-2. [Install Firefox for VS Code Sync](https://linuxconfig.org/how-to-install-uninstall-and-update-firefox-on-ubuntu-18-04-bionic-beaver-linux#h6-1-install-and-update-firefox-from-ubuntu-repository)
+2. [Install Firefox for Settings Sync](https://linuxconfig.org/how-to-install-uninstall-and-update-firefox-on-ubuntu-18-04-bionic-beaver-linux#h6-1-install-and-update-firefox-from-ubuntu-repository)
     - Configurations
         - [Make sure to default web browser](https://wiki.debian.org/DefaultWebBrowser#Default_for_foreign_programs_.28user-specific.29)
 
