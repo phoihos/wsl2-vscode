@@ -16,11 +16,11 @@ How to setup Linux Native VS Code on WSL2 Ubuntu
             echo "export LIBGL_ALWAYS_INDIRECT=1" >> ~/.bashrc
             ```
 
-2. [Install Snap for install VS Code](https://snapcraft.io/docs/installing-snap-on-ubuntu)
+2. [Install Snap for VS Code Installation](https://snapcraft.io/docs/installing-snap-on-ubuntu)
     - Prerequisites
         1. [Install **ubuntu-wsl2-systemd-script** to enable systemd](https://github.com/damionGans/ubuntu-wsl2-systemd-script)
 
-3. Intall VS Code
+3. Install VS Code
     ```sh
     sudo snap install --classic code # or code-insiders
     ```
